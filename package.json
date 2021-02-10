@@ -5,8 +5,8 @@
   "main": "index.js",
   "author": "Killerbean",
   "license": "MIT",
-  "scripts": {
-    "start": "nodemon ./index.js"
+  "scripts":{
+    "start":"nodemon index.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"

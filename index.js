@@ -36,6 +36,7 @@ const handleLoginPost = (req, res) => {
 // const server = http.createServer(handleAllRequest);
 const server = express();
 
+// server.use(handleAllRequest);
 server.get('/login', handleLoginRequest);
 server.put('/login', handleLoginPut);
 server.delete('/delete', handleLoginDelete);
